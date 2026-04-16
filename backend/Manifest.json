@@ -1,0 +1,41 @@
+{
+  "name": "LifeOS — Your Personal AI Operating System",
+  "short_name": "LifeOS",
+  "description": "AI-powered personal life operating system",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050508",
+  "theme_color": "#7c6cfc",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='url(%23g)'/><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%237c6cfc'/><stop offset='1' stop-color='%23fc6c8f'/></linearGradient></defs><text x='96' y='130' font-size='100' text-anchor='middle'>🧠</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='url(%23g)'/><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%237c6cfc'/><stop offset='1' stop-color='%23fc6c8f'/></linearGradient></defs><text x='256' y='340' font-size='260' text-anchor='middle'>🧠</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "lifestyle", "health"],
+  "shortcuts": [
+    {
+      "name": "Morning Briefing",
+      "url": "/?page=briefing",
+      "description": "View your daily AI briefing"
+    },
+    {
+      "name": "Log Mood",
+      "url": "/?page=mood",
+      "description": "Log today's mood"
+    },
+    {
+      "name": "AI Coach",
+      "url": "/?page=chat",
+      "description": "Talk to your AI coach"
+    }
+  ]
+}
